@@ -1,13 +1,9 @@
 @import "_variable.scss";
 @import "_btn-lime.scss";
-@import "_btn-cyan.scss"
 
-@function color($color-name) {
-    @return map-get($color, $color-name);
-}
 .container {
     width: 80vw;
-    margin: 2rem auto;
+    margin: 1rem auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

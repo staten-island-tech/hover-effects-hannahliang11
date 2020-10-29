@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-.btn,
+.btn-lime,
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
@@ -38,4 +38,5 @@ body {
   font-size: 3rem;
   border-radius: 75%;
 }
+
 /*# sourceMappingURL=style.css.map */
