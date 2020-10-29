@@ -1,5 +1,6 @@
 @import "_variable.scss";
 @import "_btn-lime.scss";
+@import "_btn-cyan.scss"
 
 @function color($color-name) {
     @return map-get($color, $color-name);
