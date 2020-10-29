@@ -1,16 +1,5 @@
-html,
-body {
-    font-size: 62.5%;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-$colors: (
-    red: #ff5722,
-    white: #fff,
-    blue: #00b0ff,
-    black: #000,
-);
+@import "_variable.scss";
+@import "_btn-lime.scss";
 
 @function color($color-name) {
     @return map-get($color, $color-name);
@@ -25,15 +14,4 @@ $colors: (
     font-size: 1.5rem;
     align-items: center;
     text-align: center;
-}
-.btn,
-.btn:link,
-.btn:visited{
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem  4rem;
-    background-color: lime;
-    margin: 1rem auto;
-    font-size: 3rem;
-    border-radius: 75%;
 }
