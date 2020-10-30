@@ -1,13 +1,11 @@
-.btn-lime,
+.btn-cyan,
 .btn:link,
 .btn:visited{
     text-transform: uppercase;
     text-decoration: none;
     padding: 1.5rem  4rem;
-    background-color: lime;
+    background-color: cyan;
     margin: 1rem auto;
     font-size: 3rem;
     border-radius: 75%;
-    transition: all 0.3s;
-    position: relative;
 }
