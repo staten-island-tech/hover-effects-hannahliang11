@@ -8,8 +8,13 @@
     margin: 1rem auto;
     font-size: 3rem;
     border-radius: 10rem;
+    transition: all 0.3s;
 }
 .btn-violet{
     background-color: color(violet);
     color: #fff;
+}
+.btn-violet:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 0.5rem rgba(color(black), 0.2);
 }

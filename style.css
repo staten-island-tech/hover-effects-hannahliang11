@@ -23,6 +23,11 @@ body {
   color: #000;
 }
 
+.btn-lime:hover {
+  -webkit-filter: drop-shadow(16px 16px 20px red) invert(75%);
+          filter: drop-shadow(16px 16px 20px red) invert(75%);
+}
+
 .btn-violet,
 .btn:link,
 .btn:visited {
@@ -33,10 +38,19 @@ body {
   margin: 1rem auto;
   font-size: 3rem;
   border-radius: 10rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .btn-violet {
   color: #fff;
+}
+
+.btn-violet:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .btn-cyan,
@@ -53,6 +67,20 @@ body {
 
 .btn-cyan {
   color: #009688;
+}
+
+.btn-cyan:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+
+.btn-cyan:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-transform: scaleX(1.5) scaleY(1.6);
+          transform: scaleX(1.5) scaleY(1.6);
+  -webkit-box-shadow: 0 0.5rem 1rem;
+          box-shadow: 0 0.5rem 1rem;
 }
 
 .btn-blue,
@@ -72,6 +100,12 @@ body {
   color: #B3E5FC;
 }
 
+.btn-blue:hover {
+  border-radius: 0;
+  -webkit-filter: sepia(95%);
+          filter: sepia(95%);
+}
+
 .btn-lemon,
 .btn:link,
 .btn:visited {
@@ -86,6 +120,13 @@ body {
 
 .btn-lemon {
   color: #000;
+}
+
+.btn-lemon:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-filter: contrast(10%);
+          filter: contrast(10%);
 }
 
 .container {

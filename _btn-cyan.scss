@@ -13,3 +13,11 @@
     background-color: color(cyan);
     color: #009688;
 }
+.btn-cyan:hover {
+    transform: translateY(-4px);
+}
+.btn-cyan:active {
+    transform: translateY(-1px);
+    transform: scaleX(1.5) scaleY(1.6);
+    box-shadow: 0 0.5rem 1rem;
+}
