@@ -1,11 +1,15 @@
-.btn-violet,
+.btn-lime,
 .btn:link,
 .btn:visited{
     text-transform: uppercase;
     text-decoration: none;
     padding: 1.5rem  4rem;
-    background-color: violet;
+    background-color: lime;
     margin: 1rem auto;
     font-size: 3rem;
-    border-radius: 10rem;
+    border-radius: 75%;
+}
+.btn-lime{
+    background-color: color(lime);
+    color: #000;
 }
