@@ -51,6 +51,10 @@ body {
   border-radius: 75%;
 }
 
+.btn-cyan {
+  color: #009688;
+}
+
 .btn-blue,
 .btn:link,
 .btn:visited {
@@ -61,6 +65,11 @@ body {
   margin: 1rem auto;
   font-size: 3rem;
   border-radius: 5rem;
+}
+
+.btn-blue {
+  background-color: #00b0ff;
+  color: #B3E5FC;
 }
 
 .btn-lemon,
@@ -76,7 +85,7 @@ body {
 }
 
 .btn-lemon {
-  color: #fff;
+  color: #000;
 }
 
 .container {
